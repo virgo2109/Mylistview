@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sahrul">
+
+    <TextView
+        android:id="@+id/img_photo"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:text="Sahrul" />
+
+    <ImageView
+        android:layout_width="203dp"
+        android:layout_height="195dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/sahrul"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="101dp"
+        android:layout_below="@id/img_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-68dp"
+        android:text="adalah salah seorang mahasiswa Teknik Informatika di Universitas Tadulako Palu yang menempuh semester 3. Dia lahir di desa Dolago dan beragama Islam. Hobinya bermain Bulu Tangkis."
+        android:textAlignment="center" />
+
+
+
+</RelativeLayout>
